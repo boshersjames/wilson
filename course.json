@@ -1,0 +1,97 @@
+{
+  "name": "GriffithWilson",
+  "center_lat": 34.1405,
+  "center_lon": -118.28425,
+  "size": 2000.0,
+  "epsg": 6340,
+  "arcgis_wkid": 26911,
+  "utm_zone": 11,
+  "sw_e": 380594.21,
+  "sw_n": 3777479.33,
+  "y_offset": 120.0,
+  "club": "Wilson Golf Course, Griffith Park",
+  "lidar_survey": "CA_LosAngeles_1_B23",
+  "terrain_height": 227.0,
+  "designer": "jboshers",
+  "gkd_settings": {
+    "DefaultStimp": 2,
+    "MaxStimp": 5,
+    "GreenFirmnessDefault": 0,
+    "FairwayFirmnessDefault": 0,
+    "CourseImageFileName": "Wilson.jpg"
+  },
+  "display_name": "Wilson Golf Course, Griffith Park",
+  "location": "Los Angeles, California, USA",
+  "designer_field": "jboshers",
+  "frame": {
+    "square_m": 2000.0,
+    "heightmap_px": 2049,
+    "crs": "EPSG:6340",
+    "sw_corner": [
+      380594.21,
+      3777479.33
+    ],
+    "centre_latlon": [
+      34.1405,
+      -118.28425
+    ],
+    "base_elevation_m": 120.0,
+    "relief_m": 227.0,
+    "axes": "x = m east of SW corner, z = m north, y = elevation - 120"
+  },
+  "lidar": {
+    "survey": "CA_LosAngeles_1_B23",
+    "quality_level": 1,
+    "pts_per_m2": 23.9
+  },
+  "satellite": {
+    "source": "NAIP",
+    "px": 4096,
+    "m_per_px": 0.49
+  },
+  "holes": 18,
+  "visit": "none",
+  "control_hole": null,
+  "paths": {
+    "toolkit": "../course-build",
+    "unity_project": "C:/GSP/Wilson_Project",
+    "unity_scene": "Wilson.unity",
+    "unity_editor_dir": "C:/GSP/Wilson_Project/Assets/Editor",
+    "automation_output": "C:/GSP/Wilson_Project/AutomationOutput",
+    "gspro_courses": "C:/GSProV1/Core/GSP/Courses",
+    "course_repo": ".",
+    "heightmap": "heightmap_2049.raw",
+    "gkd": "GriffithWilson.GKD",
+    "course_svg": "course.svg",
+    "satellite": "satellite.jpg",
+    "trees_csv": "trees.csv",
+    "signs": "progress/hole_signs.json",
+    "photos_root": "course_photos",
+    "progress": "progress",
+    "flyovers": "~/Documents/Wilson/flyovers",
+    "backups": "~/Documents/Wilson/Backups"
+  },
+  "gps": {
+    "magnetic_declination_deg": 12.0,
+    "note": "EXIF compass is magnetic; +12 deg to true in Los Angeles County (2026)"
+  },
+  "tee_slot_map": {
+    "Black": "Black",
+    "Blue": "Blue",
+    "White": "White",
+    "Combo": "Green",
+    "Yellow": "Yellow"
+  },
+  "shared_tee_box_exceptions": [],
+  "rule_overrides": {},
+  "notes": [
+    "course.json carries both coursekit's keys (size, sw_e, sw_n, y_offset, epsg, terrain_height, lidar_survey, gkd) and the toolkit's (frame, paths, lidar, holes, gps); keep both in step.",
+    "Frame is the Griffith Park frame shared with Harding (same square, SW corner, y_offset). heightmap_2049.raw here is the shared heightmap levelled under Wilson's tee pads (scripts/flatten_pads.py, tee_pads.csv); the folder had its own copy of heightmap and satellite, nothing was copied from griffith-park/.",
+    "trees.csv holds 2,256 LiDAR trees for both courses (vegetation was run with the whole-park map and --parkland); Harding in the middle is OB.",
+    "Check the long interior OB strip in the woods west of 17/18 against the flyover; it may be playable woods.",
+    "White tees sit on real boxes 11 yds long of the card on 1 and 2, 6 yds on 5 (Combo too on 5).",
+    "green_slopes.csv: 12 greens over 3% overall slope (1, 2, 3, 4, 5, 8, 9, 10, 13, 15, 16, 17; steepest 17 at 4.8%), not smoothed.",
+    "scripts/coursekit.py is Wilson's copy of coursekit with the collar, bunker and LA River changes.",
+    "Flyovers from BoJa: front 9 https://youtu.be/zK3th5k1jfM, back 9 https://youtu.be/8REieRe2TAQ."
+  ]
+}
