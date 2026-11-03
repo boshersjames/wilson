@@ -69,7 +69,8 @@
     "photos_root": "course_photos",
     "progress": "progress",
     "flyovers": "~/Documents/Wilson/flyovers",
-    "backups": "~/Documents/Wilson/Backups"
+    "backups": "~/Documents/Wilson/Backups",
+    "photo_store": "r2://wilson"
   },
   "gps": {
     "magnetic_declination_deg": 12.0,
