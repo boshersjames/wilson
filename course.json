@@ -70,7 +70,8 @@
     "progress": "progress",
     "flyovers": "~/Documents/Wilson/flyovers",
     "backups": "~/Documents/Wilson/Backups",
-    "photo_store": "r2://wilson"
+    "photo_store": "r2://wilson",
+    "photo_store_account": "db5ab79ca4e0a0748aff45e85449b1c1"
   },
   "gps": {
     "magnetic_declination_deg": 12.0,
