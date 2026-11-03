@@ -1,0 +1,348 @@
+{
+ "holes": [
+  {
+   "hole": 1,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 4,
+   "areas": 3,
+   "usable": 3.5,
+   "slope_mean": 5.45,
+   "warn": [
+    "pins(lidar)",
+    "areas(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  },
+  {
+   "hole": 2,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 4,
+   "areas": 15,
+   "usable": 14.8,
+   "slope_mean": 4.68,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  },
+  {
+   "hole": 3,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 4,
+   "areas": 8,
+   "usable": 11.2,
+   "slope_mean": 4.34,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  },
+  {
+   "hole": 4,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [
+    "flyover"
+   ],
+   "pins_fail": 4,
+   "areas": 25,
+   "usable": 31.7,
+   "slope_mean": 3.26,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "FAIL",
+   "pass": false,
+   "status": "FAIL"
+  },
+  {
+   "hole": 5,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 4,
+   "areas": 5,
+   "usable": 3.6,
+   "slope_mean": 4.98,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  },
+  {
+   "hole": 6,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 4,
+   "areas": 13,
+   "usable": 26.5,
+   "slope_mean": 3.47,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  },
+  {
+   "hole": 7,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [
+    "flyover"
+   ],
+   "pins_fail": 3,
+   "areas": 23,
+   "usable": 51.2,
+   "slope_mean": 2.91,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "FAIL",
+   "pass": false,
+   "status": "FAIL"
+  },
+  {
+   "hole": 8,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 4,
+   "areas": 20,
+   "usable": 26.5,
+   "slope_mean": 3.82,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  },
+  {
+   "hole": 9,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 4,
+   "areas": 11,
+   "usable": 11.3,
+   "slope_mean": 3.87,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  },
+  {
+   "hole": 10,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 3,
+   "areas": 13,
+   "usable": 22.6,
+   "slope_mean": 4.47,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  },
+  {
+   "hole": 11,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [
+    "flyover"
+   ],
+   "pins_fail": 2,
+   "areas": 11,
+   "usable": 30.7,
+   "slope_mean": 3.78,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "FAIL",
+   "pass": false,
+   "status": "FAIL"
+  },
+  {
+   "hole": 12,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [
+    "flyover"
+   ],
+   "pins_fail": 1,
+   "areas": 39,
+   "usable": 55.1,
+   "slope_mean": 3.01,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "FAIL",
+   "pass": false,
+   "status": "FAIL"
+  },
+  {
+   "hole": 13,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [
+    "flyover"
+   ],
+   "pins_fail": 3,
+   "areas": 10,
+   "usable": 14.1,
+   "slope_mean": 5.08,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "FAIL",
+   "pass": false,
+   "status": "FAIL"
+  },
+  {
+   "hole": 14,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 1,
+   "areas": 24,
+   "usable": 53.7,
+   "slope_mean": 3.13,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  },
+  {
+   "hole": 15,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [
+    "flyover"
+   ],
+   "pins_fail": 3,
+   "areas": 13,
+   "usable": 20.9,
+   "slope_mean": 3.83,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "FAIL",
+   "pass": false,
+   "status": "FAIL"
+  },
+  {
+   "hole": 16,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 3,
+   "areas": 12,
+   "usable": 32.0,
+   "slope_mean": 3.88,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  },
+  {
+   "hole": 17,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [
+    "flyover"
+   ],
+   "pins_fail": 4,
+   "areas": 3,
+   "usable": 4.1,
+   "slope_mean": 5.44,
+   "warn": [
+    "pins(lidar)",
+    "areas(lidar)"
+   ],
+   "flyover": "FAIL",
+   "pass": false,
+   "status": "FAIL"
+  },
+  {
+   "hole": 18,
+   "source": [
+    "lidar-proxy",
+    "flyover"
+   ],
+   "fails": [],
+   "pins_fail": 4,
+   "areas": 7,
+   "usable": 12.8,
+   "slope_mean": 4.23,
+   "warn": [
+    "pins(lidar)"
+   ],
+   "flyover": "PASS",
+   "pass": true,
+   "status": "PASS"
+  }
+ ],
+ "missing": [
+  "Unity CourseGreenChecks (checks/greens_all18.csv): run Course Checks > Greens on the PC"
+ ],
+ "gkd_fail": []
+}
