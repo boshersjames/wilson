@@ -10,3 +10,13 @@ ept_cache/
 AutomationOutput/
 progress/flyover_gate/flyover_shots.json
 course_photos/drone/*.mp4
+# originals live in the R2 bucket (paths.photo_store, tools/photo_sync.py); git keeps index.csv, sheets, verdicts
+course_photos/unsorted/**/*.HEIC
+course_photos/unsorted/**/*.heic
+course_photos/unsorted/**/*.jpg
+course_photos/unsorted/**/*.JPG
+course_photos/unsorted/**/*.jpeg
+course_photos/unsorted/**/*.mov
+course_photos/unsorted/**/*.MOV
+course_photos/scans/*.las
+course_photos/scans/*.laz
